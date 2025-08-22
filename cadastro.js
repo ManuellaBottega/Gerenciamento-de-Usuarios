@@ -68,4 +68,7 @@ function cadastroUsuarios (menu, prompt, usuarios){
     
 }
 
-module.exports = cadastroUsuarios
+module.exports = {
+    cadastroUsuarios, 
+    listaEmails
+}
