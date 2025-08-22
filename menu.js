@@ -1,6 +1,6 @@
 const prompt = require ('prompt-sync')()
 
-const cadastroUsuarios = require ('./cadastro')
+const {cadastroUsuarios} = require ('./cadastro')
 const listarUsuarios = require ('./listagem')
 const atualizacaoUsuarios = require ('./atualizacao')
 const remocaoUsuarios = require ('./remocao')

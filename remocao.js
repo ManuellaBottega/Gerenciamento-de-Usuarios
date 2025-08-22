@@ -13,7 +13,8 @@ function remocaoUsuarios(menu, prompt, usuarios) {
         console.log(`ID: ${usuario.ID}, Nome: ${usuario.nome}`)
     });
 
-    const idParaRemover = prompt('\nDigite o ID do usuário que deseja remover: ')
+    const idParaRemover = prompt('Digite o ID do usuário que deseja remover: ')
+
     const usuarioIndex = usuarios.findIndex(usuario => usuario.ID == idParaRemover)
 
     if (usuarioIndex === -1) {
